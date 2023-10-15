@@ -1,0 +1,61 @@
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh
+}
+#counter
+{
+    box-shadow: 5px 5px 5px ;
+    height: 350px;
+    width:300px;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#count
+{
+    font-size: 60px;
+}
+#btn
+{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    height:30px;
+    transition: all 2s;
+}
+#btn:hover{
+    color:white;
+    background-color: #c89c50;
+}
+
+#btn1
+{
+    color:white;
+    background-color: rgb(155, 145, 145);
+    border-radius: 10px;
+    height:30px;
+    transition: all 2s;
+}
+#btn1:hover
+{
+    color: white;
+    background-color: blue;
+}
+
+#btn2
+{
+    color:white;
+    background-color: rgb(223, 103, 103);
+    border-radius: 10px;
+    height:30px;
+    transition: all 2s;
+}
+#btn2:hover
+{
+    color: white;
+    background-color: blueviolet;
+}
