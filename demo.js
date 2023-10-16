@@ -3,6 +3,7 @@ let c = 0;
 
 function increment () 
 {
+    if(c<20)
     c++; 
     p.textContent = c; 
 }
